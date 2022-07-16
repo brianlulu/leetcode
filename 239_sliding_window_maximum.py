@@ -40,6 +40,8 @@ class Solution:
 
         return result
 
+        # TC: O(N) we iterate through the nums array once and the pop is O(1)
+        # SC: O(K) maximum index can be append into queue is K
 
 if __name__ == "__main__":
 
