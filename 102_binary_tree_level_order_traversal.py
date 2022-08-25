@@ -8,7 +8,7 @@ from collections import deque
 
 
 class Solution:
-    def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
+    def levelOrder(self, root):
         # input: root -> TreeNode
         # output: level order traversal -> List[List[int]]
 
